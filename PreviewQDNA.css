@@ -60,7 +60,7 @@ background-color: white;
 padding: 36px;
 }
 
-@media (max-width: 360pt) {
+@media screen and (max-width: 360pt) {
     body {background:white;}
     p {text-indent: 0;
        padding-bottom:1em;
