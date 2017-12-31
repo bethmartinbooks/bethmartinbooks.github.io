@@ -132,7 +132,7 @@ button:hover {
     transition-duration: 0.4s;
     }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 360pt) {
     body {background:white;}
     p {text-indent: 0;
        padding-bottom:1em;
