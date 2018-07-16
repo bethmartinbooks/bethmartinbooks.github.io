@@ -1,135 +1,7 @@
 <html>
 <head>
   <title>Reserve You're Copy of In the Lurch!</title>
-  <style>
-body {
-    background-image:url("fire.jpg");
-    background-color:black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-    padding: 0;
-    margin: 0;
-}
-div {
-    margin:0;
-    padding:0;
-}
-div.sp{clear:both;}
-div.wrapper {
-    padding:70px;
-    width:842px;
-    margin:auto;
-}
-
-div.wrapper2 {
-    padding:30px 70px;
-    width:842px;
-    margin:auto;
-}
-
-div.bar {
-    width:100%;
-    background: rgba(0, 0, 0, 0.8);
-    margin:0;
-    padding 0;
-}
-div.book {
-    text-align: right;
-    width:300px;
-    height:450px;
-    float:left;
-}
-
-img.cover {
-    height:450px;
-    width:300px;
-    border: 1px solid #ccc;
-}
-
-img.prt1 {
-    float:left;
-    border-radius: 10px;
-    margin-right: 50px;
-    margin-bottom: 10px;
-}
-
-img.prt2 {
-    float:right;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;}
-
-div.text {
-    text-align: left;
-    padding-left: 50px;
-    width: 450px;
-    float:left;
-}
-div.info {
-    text-align: center;
-    padding: 0 20px;
-}
-
-div.info2 {
-    text-align: left;
-    padding: 0 20px;
-}
-
-h1{
-    font-size: 30pt;
-    font-family: Helvetica, sans-serif;
-    margin-top: 0;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-p {
-    font-size: 14pt;
-    font-family: Verdana, sans-serif;
-    line-height: 20pt;
-}
-p.button {
-    text-indent: 36pt;
-}
-button {
-    padding: 15px 30px;
-    color:black;
-    background-color: orange;
-    border: solid 0 orange;
-    border-radius: 12px;
-    font-size: 24pt;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-@media only screen and (max-width: 935px) {
-div.wrapper {
-    padding:70px 0;
-    width:100%;
-}
-div.book {
-    width:100%;
-    text-align:center;
-    padding: 30px 0;
-}
-
-div.text {
-    text-align: left;
-    padding: 0 15px;
-    width: 100%;
-}
-p.button {
-    text-indent:0;
-    text-align: center;
-}
-
-  </style>
+    <link rel="stylesheet" type="text/css" href="lurch-style.css" />
 </head>
 <body>
   <div class="wrapper">
@@ -139,8 +11,8 @@ p.button {
     <div class="text">
       <h1>YOU'VE BEEN REPLACED</h1>
       <p>When a machine could do as much work as three men, the labor force was quickly replaced by much more efficient androids. As the number of robots grew, jobs disappeared, and everyone in the middle class found themselves obsolete. While the wealthiest few prosper, most of humanity has been thrown into extreme poverty.</p>
-      <p>Sign up for the Beth Martin Books Newsletter to get an email reminder on release day for <i>In the Lurch</i>.</p>
-      <p class="button"><button id="open-popup">Join Now!</button></p>
+      <p>Coming out November 6th, 2018. Sign up for the Beth Martin Books Newsletter to get an email reminder on release day of <i>In the Lurch</i>.</p>
+      <p class="button"><a href="sign-up.html"><button>Join Now!</button></a></p>
     </div>
     <div class="sp"></div>
   </div>
@@ -148,7 +20,7 @@ p.button {
     <div class="info">
       <h1>No one could have stopped it.</h1>
       <p>The creation of the android was supposed to make life better. Robots could take over the tasks that people didn't want to do, leaving more time for fun and leisure. But not only did the machines gladly perform whatever labor was asked of them, they could also perform job duties without the expectation of wages, benefits, or time off. Instead of improving the lives of everyone, the androids took their jobs.</p>
-      <p>The entire middle class was soon thrown into poverty. As only the select elite enjoyed the fruits of their robot armies' labors, most of the population had to fight to survive. Their everyday struggles imbittered them, further driving the rift between the classes.</p>
+      <p>The entire middle class was soon thrown into poverty. As only the select elite enjoyed the fruits of their robot armies' labors, most of the population had to fight to survive. Their everyday struggles embittered them, further driving the rift between the classes.</p>
       <p>With such unrest, it was inevitable that someone would take matters into their own hands. The lurch has started burning down estates in order to make a statement. But even after their message has been heard, they show no signs of stopping their streak of carnage.</p>
     </div>
   </div></div>
@@ -166,23 +38,11 @@ p.button {
     <div class="info">
       <h1>Don't miss out on this exciting sci-fi novel!</h1>
       <p><em>In the Lurch</em> comes out on November 6th, 2018. Sign up for the Beth Martin Books Newsletter to get an email reminder on the release day!</p>
-      <p><button id="open-popup">Sign Up Now!</button></p>
+      <p><a href="sign-up.html"><button>Sign Up Now!</button></a></p>
       <p><br /></p>
       <a href="http://BethMartinBooks.com"><p><img src="logoweb.png" alt="Beth Martin Books" />
       <p>BethMartinBooks.com</p></a>
     </div>
   </div></div>
-
-
-
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script>
-  function showMailingPopUp() {
-    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"549aa450ae744f27383d739d0","lid":"7acf610aac"}) })
-    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-};
-
-document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-</script>
 </body>
 </html>

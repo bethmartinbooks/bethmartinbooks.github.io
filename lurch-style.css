@@ -1,0 +1,143 @@
+body {
+    background-image:url("fire.jpg");
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+div {
+    margin:0;
+    padding:0;
+}
+div.sp{clear:both;}
+div.wrapper {
+    padding:70px;
+    width:842px;
+    margin:auto;
+}
+
+div.wrapper2 {
+    padding:30px 70px;
+    width:842px;
+    margin:auto;
+}
+
+div.bar {
+    width:100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin:0;
+    padding 0;
+}
+div.book {
+    text-align: right;
+    width:300px;
+    height:450px;
+    float:left;
+}
+
+img.cover {
+    height:450px;
+    width:300px;
+    border: 1px solid #ccc;
+}
+
+img.prt1 {
+    float:left;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+img.prt2 {
+    float:right;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+div.text {
+    text-align: left;
+    padding-left: 50px;
+    width: 450px;
+    float:left;
+}
+div.info {
+    text-align: center;
+    padding: 0 20px;
+}
+
+div.info2 {
+    text-align: left;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 30pt;
+    font-family: Helvetica, sans-serif;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 14pt;
+    font-family: Verdana, sans-serif;
+    line-height: 20pt;
+}
+p.button {
+    text-indent: 36pt;
+}
+button {
+    padding: 15px 30px;
+    color:black;
+    background-color: orange;
+    border: solid 0 orange;
+    border-radius: 12px;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-top: 20px;
+}
+input.textbox {
+    width: 100%;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px gray solid;
+}
+input.button {
+    padding: 15px 30px;
+    color:black;
+    background-color: orange;
+    border: solid 0 orange;
+    border-radius: 12px;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 935px) {
+div.wrapper {
+    padding:70px 15px;
+    width:100%;
+}
+div.book {
+    width:100%;
+    text-align:center;
+    padding: 30px 0;
+}
+
+div.text {
+    text-align: left;
+    padding: 0;
+    width: 100%;
+}
+p.button {
+    text-indent:0;
+    text-align: center;
+}}
