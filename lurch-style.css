@@ -1,3 +1,4 @@
+html {height:100%;}
 body {
     background-image:url("fire.jpg");
     background-color:black;
@@ -7,6 +8,7 @@ body {
     color: white;
     padding: 0;
     margin: 0;
+    height:100%;
 }
 div {
     margin:0;
@@ -25,6 +27,20 @@ div.wrapper2 {
     margin:auto;
 }
 
+div.tall {
+    height:100%;
+    min-height:644px;
+    width: 802px;
+    background-color: black;
+    margin: auto;
+}
+
+iframe {
+    border:none;
+    margin:auto;
+    padding:0;
+}
+
 div.bar {
     width:100%;
     background: rgba(0, 0, 0, 0.8);
@@ -41,7 +57,8 @@ div.book {
 img.cover {
     height:450px;
     width:300px;
-    border: 1px solid #ccc;
+    border: 1px solid #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 img.prt1 {
@@ -75,7 +92,7 @@ div.info2 {
 }
 
 h1{
-    font-size: 30pt;
+    font-size: 40px;
     font-family: Helvetica, sans-serif;
     margin-top: 0;
 }
@@ -86,23 +103,30 @@ a {
 }
 
 p {
-    font-size: 14pt;
+    font-size: 18px;
     font-family: Verdana, sans-serif;
-    line-height: 20pt;
+    line-height: 26px;
 }
 p.button {
-    text-indent: 36pt;
+    text-indent: 48px;
 }
-button {
+a.button {
     padding: 15px 30px;
+    margin: 20px;
     color:black;
     background-color: orange;
     border: solid 0 orange;
     border-radius: 12px;
-    font-size: 24pt;
+    font-size: 32px;
     font-weight: bold;
-    margin-top: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
+
+a:hover {
+    background-color: yellow;
+}
+
 input.textbox {
     width: 100%;
     padding: 6px;
@@ -115,7 +139,7 @@ input.button {
     background-color: orange;
     border: solid 0 orange;
     border-radius: 12px;
-    font-size: 24pt;
+    font-size: 32px;
     font-weight: bold;
     margin-top: 20px;
 }
