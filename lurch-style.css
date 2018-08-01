@@ -28,20 +28,6 @@ div.wrapper2 {
     margin:auto;
 }
 
-div.tall {
-    height:100%;
-    min-height:644px;
-    width: 802px;
-    background-color: black;
-    margin: auto;
-}
-
-iframe {
-    border:none;
-    margin:auto;
-    padding:0;
-}
-
 div.bar {
     width:100%;
     background: rgba(0, 0, 0, 0.8);
